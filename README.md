@@ -198,7 +198,7 @@ static void MX_GPIO_Init(void)
 
 ## Output screen shots of proteus  :
 
-<img src=(https://github.com/Vanitha-SM/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119557985/8e5a10d7-b12d-4adf-920c-ec356e2dc14a width=450 height=425>
+<img src=https://github.com/Vanitha-SM/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119557985/8e5a10d7-b12d-4adf-920c-ec356e2dc14a width=450 height=425>
 
  
 ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
