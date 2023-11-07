@@ -43,81 +43,43 @@ Whereas in 8 bit mode we can send the 8-bit data directly in one stroke since we
 
 There are some preset commands instructions in LCD, which we need to send to LCD through some microcontroller. Some important command instructions are given below:
 
-Hex Code
+Hex Code - Command to LCD Instruction Register
 
-Command to LCD Instruction Register
+0F - LCD ON, cursor ON
 
-0F
+01 - Clear display screen
 
-LCD ON, cursor ON
+02 - Return home
 
-01
+04 - Decrement cursor (shift cursor to left)
 
-Clear display screen
+06 - Increment cursor (shift cursor to right)
 
-02
+05 - Shift display right
 
-Return home
+07 - Shift display left
 
-04
+0E - Display ON, cursor blinking
 
-Decrement cursor (shift cursor to left)
+80 - Force cursor to beginning of first line
 
-06
+C0 - Force cursor to beginning of second line
 
-Increment cursor (shift cursor to right)
+38 - 2 lines and 5×7 matrix
 
-05
+83 - Cursor line 1 position 3
 
-Shift display right
+3C - Activate second line
 
-07
+08 - Display OFF, cursor OFF
 
-Shift display left
+C1 - Jump to second line, position 1
 
-0E
+OC - Display ON, cursor OFF
 
-Display ON, cursor blinking
+C1 - Jump to second line, position 1
 
-80
-
-Force cursor to beginning of first line
-
-C0
-
-Force cursor to beginning of second line
-
-38
-
-2 lines and 5×7 matrix
-
-83
-
-Cursor line 1 position 3
-
-3C
-
-Activate second line
-
-08
-
-Display OFF, cursor OFF
-
-C1
-
-Jump to second line, position 1
-
-OC
-
-Display ON, cursor OFF
-
-C1
-
-Jump to second line, position 1
-
-C2
-
-Jump to second line, position 2
+C2 - Jump to second line, position 2
  
 ## Procedure:
 Open a new STM32 Project.
